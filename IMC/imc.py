@@ -10,3 +10,13 @@ altura = float(input("Digite sua altura: ")) # Altura do usuário.
 imc = peso/(altura*altura)
 # Mostra os resultados para o usuário!!!
 print("{}, você tem {} anos, seu imc é de {:.2f}" .format(pessoa,idade,imc))
+
+# Codições dos resultados!
+if imc <= 17:
+    print(' Cuidado, Seu IMC está abaixo do ideal!')
+
+elif imc >17 and imc <=25:
+    print('Parabéns, seu IMC está no parâmetro ideal! ')
+
+else:
+    print('Cuidado, seu IMC está acima do ideal!')
